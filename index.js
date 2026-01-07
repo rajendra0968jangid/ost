@@ -7,14 +7,14 @@ function copyToClipboard1(ip) {
 // changes on
 // List of IPs (this can come from API, backend, or config)
 const ipAddresses = [
-  "54.86.166.26",
-  "23.22.180.65",
-  "54.224.111.161",
-  "54.90.86.130",
-  "54.145.62.215",
+  "54.91.217.123",
+  "3.88.101.232",
+  "18.205.237.1",
+  "98.94.5.63",
+  "107.21.70.85",
 ];
 
-const v = "15:18:00";
+const v = "18:16:00";
 const startTime = new Date(`2026-01-07T${v}`).getTime();
 const counter = "countdown" // countdown | countdown1
 ////////////aws cloud
