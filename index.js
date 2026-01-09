@@ -1,8 +1,8 @@
-function copyToClipboard1(ip) {
-  navigator.clipboard.writeText(ip).then(() => {
-    // alert("Copied: " + ip);
-  });
-}
+// function copyToClipboard1(ip) {
+//   navigator.clipboard.writeText(ip).then(() => {
+//     // alert("Copied: " + ip);
+//   });
+// }
 
 // changes on
 // List of IPs (this can come from API, backend, or config)
@@ -98,4 +98,4 @@ function updateCountdown(ct) {
 
 // Run immediately and then every second
 updateCountdown(counter);
-const timer = setInterval(updateCountdown, 1000);
+const timer = setInterval(() => updateCountdown(counter), 1000);
