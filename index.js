@@ -28,18 +28,18 @@ const ipAddresses1 = [
 
 
 // Render IP list into the container
-const ipGrid1 = document.getElementById("ipGrid1");
-ipAddresses1.forEach((ip) => {
-  const div = document.createElement("div");
-  div.classList.add("ip-item");
-  div.innerHTML = `
-    ${ip} 
-    <button class="copy-btn" onclick="copyToClipboard1('${ip}')">
-      <i class="fas fa-copy"></i> Copy
-    </button>
-  `;
-  ipGrid1.appendChild(div);
-});
+// const ipGrid1 = document.getElementById("ipGrid1");
+// ipAddresses1.forEach((ip) => {
+//   const div = document.createElement("div");
+//   div.classList.add("ip-item");
+//   div.innerHTML = `
+//     ${ip} 
+//     <button class="copy-btn" onclick="copyToClipboard1('${ip}')">
+//       <i class="fas fa-copy"></i> Copy
+//     </button>
+//   `;
+//   ipGrid1.appendChild(div);
+// });
 ////////////////////
 ///////// aws
 
