@@ -8,15 +8,15 @@
 // List of IPs (this can come from API, backend, or config)
 
 const ipAddresses = [
-  "44.223.63.234", 
-"54.210.111.144",
-"54.198.145.43",
-"100.31.3.37",
-"52.91.8.156",
+  "52.73.187.42", 
+"52.23.203.156",
+"100.27.231.92",
+"52.91.58.66",
+"18.212.238.76",
 ];
 
-const v = "22:10:00";
-const startTime = new Date(`2026-08-12T${v}`).getTime();
+const v = "10:40:00";
+const startTime = new Date(`2026-08-13T${v}`).getTime();
 const counter = "countdown" // countdown | countdown1
 ////////////aws cloud
 //////////////////////
