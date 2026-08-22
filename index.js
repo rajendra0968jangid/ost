@@ -8,15 +8,15 @@
 // List of IPs (this can come from API, backend, or config)
 
 const ipAddresses = [
-  "18.232.187.165", 
-"3.238.126.42",
-"44.222.123.4",
-"100.49.152.143",
-"100.53.242.29",
+  "18.207.251.44", 
+"13.221.61.76",
+"44.222.218.75",
+"98.84.27.202",
+"13.221.197.191",
 ];
 
 const v = "10:40:00";
-const startTime = new Date(`2026-08-21T${v}`).getTime();
+const startTime = new Date(`2026-08-22T${v}`).getTime();
 const counter = "countdown" // countdown | countdown1
 ////////////aws cloud
 //////////////////////
@@ -51,7 +51,7 @@ ipAddresses.forEach((ip) => {
   div.classList.add("ip-item");
   div.innerHTML = `
     ${ip} 
-    <button class="copy-btn" onclick="copyToClipboard('ssh ubuntu@${ip}')">
+    <button class="copy-btn" onclick="copyToClipboard('ssh ec2-user@${ip}')">
       <i class="fas fa-copy"></i> Copy
     </button>
   `;
